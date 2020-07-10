@@ -1,0 +1,13 @@
+### Function for Easier plotting of survival curves by group
+###  Set mark.time=TRUE to add marks for censored observations
+
+survplot<-function(fit,xlab="",ylab="",main="",conf.int=FALSE,mark.time=FALSE,...){
+
+require(survival)
+
+plot(fit,xlab=xlab,ylab=ylab,main=main,conf.int=conf.int, 
+lty=c(1:length(fit$strata)),mark.time=mark.time,...)
+
+legend("topright",names(fit$strata),bty="n",lty=c(1:length(fit$strata)))
+
+}

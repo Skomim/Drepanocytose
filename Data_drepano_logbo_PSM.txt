@@ -1,0 +1,52 @@
+SC=0
+SS=1
+
+change SC and SS code for PS, giving SC=1, SS=0
+
+Age
+<19=0
+20-24=1
+25-29=2
+30-34=3
+35-39=4
+>40 ans=5
+
+Status matrimonial
+Celibataire=0
+Marie=1
+
+Education
+Non alphab=0
+Primaire=1
+Seondaire=2
+universitaire=3
+
+Gestite
+1=0
+2-3=1
+>3=2
+
+Parite
+Nullipare=0
+paucipare=1
+Mutlipare, grande=2
+
+CPN
+0=0
+1-3=1
+>4=2
+
+
+Admission mode
+Admise=0
+adresse=1
+referee=2
+
+
+Accht
+basse=0
+cesa=1
+
+STAT
+Exeat=0
+dcd=1
